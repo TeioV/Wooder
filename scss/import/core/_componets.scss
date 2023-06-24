@@ -1,0 +1,43 @@
+.textbox {
+  max-width: 510px;
+  text-align: center;
+  h3 {
+    font-family: pb;
+    font-size: 40px;
+    color: $black-ct;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: pr;
+    font-size: 16px;
+    color: $gray-tb;
+    letter-spacing: 0.07em;
+  }
+}
+
+// btn
+.btnmas {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 253px;
+  padding: 15px 40px;
+  border: 1px solid $white-cl;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+  color: $white-cl;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-family: pb;
+  &:hover {
+    background-color: $yellow-hover;
+  }
+  img {
+    object-fit: contain;
+    margin-left: 15px;
+  }
+}

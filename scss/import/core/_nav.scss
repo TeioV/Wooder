@@ -1,0 +1,32 @@
+.nav {
+  width: 100vw;
+  height: 100vh;
+  background: $black-bg;
+  position: fixed;
+  top: 0;
+  left: 0;
+  @include transform(initial);
+  z-index: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+
+  ul {
+    flex-direction: column;
+    @include mid();
+    li {
+      margin: 20px auto;
+      a {
+        padding: 20px;
+        text-decoration: none;
+        color: $white-cl;
+        text-align: center;
+      }
+    }
+  }
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.4s;
+  }
+}

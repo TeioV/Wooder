@@ -1,0 +1,14 @@
+@import "./import/core/reset";
+@import "./import/core/variables";
+@import "./import/core/mixin";
+@import "./import/core/layout";
+@import "./import/core/elements.scss";
+@import "./import/core/componets";
+@import "./import/core/libs";
+
+// pages
+@import "./import/pages/home";
+// footer, header, nav
+@import "./import/core/footer";
+@import "./import/core/header";
+@import "./import/core/nav.scss";
